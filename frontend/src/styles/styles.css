@@ -1,0 +1,159 @@
+/* frontend/src/styles/styles.css */
+
+/* Global styles */
+
+
+body {
+  background-image: url('https://cdn.leonardo.ai/users/12adf5be-8e70-4be7-82b2-f6a279f24f70/generations/edf6d2fa-9ef5-4619-a575-3004c1106174/Leonardo_Diffusion_XL_draw_a_picture_for_my_homepage_of_my_web_1.jpg');
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Add these styles to your existing CSS file */
+
+.contact-container {
+  text-align: center;
+  margin-top: 50px; /* Adjust the margin as needed */
+}
+
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* Add flexbox */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.contact-list li {
+  margin-right: 20px; /* Add margin between items */
+}
+
+.contact-list li:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.contact-list li a {
+  font-size: 24px;
+  display: flex; /* Add flexbox to align icon and text */
+  align-items: center; /* Center items vertically */
+}
+.social-icon {
+  width: 50px;
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Adjust margin between icon and text */
+}
+
+.text-box {
+  color: white;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the start of the flex container */
+  padding: 20px;
+}
+
+.project-list {
+  width: auto; /* Set width to auto to adjust based on content */
+  margin-right: 20px; /* Add right margin to create space between project list and view button */
+}
+
+.project-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-list li {
+  margin-bottom: 10px;
+}
+
+.project-name {
+  color: white; /* White color for shining effect */
+  font-weight: bold; /* Optional: Make the text bold */
+  text-shadow: 0 0 5px rgba(255,255,255,0.5), 0 0 10px rgba(255,255,255,0.5), 0 0 15px rgba(255,255,255,0.5), 0 0 20px rgba(255,255,255,0.5); /* Shining effect */
+}
+
+.project-name-box {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold; /* Add this line */
+}
+
+.view-button {
+  flex-shrink: 0; /* Prevent the view button from shrinking */
+}
+
+.view-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.view-button button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Header styles */
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Menu styles */
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu-items {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu-item {
+  margin: 0 10px;
+  font-size: 20px; /* Adjust the font size as needed */
+  border: 2px solid #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.3); /* Background color for the menu items */
+}
+.center {
+  text-align: center;
+
+}
+.menu-item a {
+  text-decoration: none;
+  color: #fff; /* Link color */
+}
+/* Add this to your existing CSS file */
+.photon {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0;
+  animation: cometAnimation 4s infinite;
+}
+
+@keyframes cometAnimation {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(200px, -200px);
+    opacity: 0;
+  }
+}
+
