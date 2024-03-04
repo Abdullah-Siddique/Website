@@ -28,3 +28,4 @@ PortfolioWebsite/
 │   └── package.json            # Frontend dependencies and scripts
 │
 └── README.md                   # Project documentation
+
