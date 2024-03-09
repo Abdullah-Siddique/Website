@@ -4,13 +4,18 @@
 
 
 body {
-  background-image: url('https://cdn.leonardo.ai/users/12adf5be-8e70-4be7-82b2-f6a279f24f70/generations/edf6d2fa-9ef5-4619-a575-3004c1106174/Leonardo_Diffusion_XL_draw_a_picture_for_my_homepage_of_my_web_1.jpg');
+  background-image: url('https://cdn.leonardo.ai/users/12adf5be-8e70-4be7-82b2-f6a279f24f70/generations/d127a3e7-b7e6-420e-bc61-b98b974cd5a1/Default_below_view_of_water_with_sunlight_3.jpg');
   background-size: cover;
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
 /* Add these styles to your existing CSS file */
+.contact-image {
+  max-width: 40%;
+  height: auto;
+  margin-bottom: 10px; /* Adjust spacing as needed */
+}
 
 .contact-container {
   text-align: center;
@@ -156,4 +161,5 @@ body {
     opacity: 0;
   }
 }
+
 

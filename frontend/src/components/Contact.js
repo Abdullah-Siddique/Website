@@ -4,6 +4,14 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <h1 className="h1">Contact with me</h1>
+      <figure>
+        <img
+          src="https://i.postimg.cc/3rFmgdRj/409655804-2111986915822007-8518863655584446974-n-1.jpg"
+          alt="Abdullah Siddique"
+          className="contact-image"
+        />
+        <figcaption>Abdullah Siddique</figcaption>
+      </figure>
       <ul className="contact-list">
         <li>
           <a href="https://www.facebook.com/abdullah.r.siddique" target="_blank" rel="noopener noreferrer">
@@ -12,7 +20,6 @@ const Contact = () => {
               alt="Facebook"
               className="social-icon"
             />
-
           </a>
         </li>
         <li>
@@ -22,7 +29,6 @@ const Contact = () => {
               alt="LinkedIn"
               className="social-icon"
             />
-
           </a>
         </li>
         <li>
@@ -32,7 +38,6 @@ const Contact = () => {
               alt="GitHub"
               className="social-icon"
             />
-
           </a>
         </li>
         <li>
@@ -42,18 +47,14 @@ const Contact = () => {
               alt="Twitter"
               className="social-icon"
             />
-
           </a>
         </li>
         <li>
           <a href="mailto:siddiqueabdullah581@gmail.com">
             <img src="https://www.svgrepo.com/download/14478/email.svg"
-            alt="email"
-            className="social-icon"
+              alt="email"
+              className="social-icon"
             />
-
-
-
           </a>
         </li>
       </ul>
@@ -62,6 +63,7 @@ const Contact = () => {
 };
 
 export default Contact;
+
 
 
 
