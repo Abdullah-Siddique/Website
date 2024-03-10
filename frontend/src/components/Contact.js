@@ -1,9 +1,12 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Contact = () => {
   return (
     <div className="contact-container">
       <h1 className="h1">Contact with me</h1>
+      <div className="go-back-container">
+        <Link to="/" className="go-back-link">Go Back</Link>
+      </div>
       <figure>
         <img
           src="https://i.postimg.cc/3rFmgdRj/409655804-2111986915822007-8518863655584446974-n-1.jpg"

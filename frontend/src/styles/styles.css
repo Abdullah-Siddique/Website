@@ -150,6 +150,29 @@ body {
   opacity: 0;
   animation: cometAnimation 4s infinite;
 }
+/* Add this CSS to your styles.css or another appropriate CSS file */
+
+.go-back-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.go-back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.go-back-link:hover {
+  background-color: #e0e0e0;
+}
+
 
 @keyframes cometAnimation {
   0% {
@@ -161,5 +184,6 @@ body {
     opacity: 0;
   }
 }
+
 
 
