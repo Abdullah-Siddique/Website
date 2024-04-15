@@ -13,7 +13,7 @@ const Contact = () => {
           alt="Abdullah Siddique"
           className="contact-image"
         />
-        <figcaption>Abdullah Siddique</figcaption>
+        <figcaption style={{ color: 'white', fontWeight: 'bold' }}>Abdullah Siddique</figcaption>
       </figure>
       <ul className="contact-list">
         <li>

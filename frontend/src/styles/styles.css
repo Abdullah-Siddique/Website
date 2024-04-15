@@ -4,7 +4,7 @@
 
 
 body {
-  background-image: url('https://cdn.leonardo.ai/users/12adf5be-8e70-4be7-82b2-f6a279f24f70/generations/d127a3e7-b7e6-420e-bc61-b98b974cd5a1/Default_below_view_of_water_with_sunlight_3.jpg');
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/734/564/desktop-wallpaper-techy-backgrounds-portfolio.jpg');
   background-size: cover;
   margin: 0;
   font-family: Arial, sans-serif;
@@ -77,12 +77,11 @@ body {
 .project-name {
   color: white; /* White color for shining effect */
   font-weight: bold; /* Optional: Make the text bold */
-  text-shadow: 0 0 5px rgba(255,255,255,0.5), 0 0 10px rgba(255,255,255,0.5), 0 0 15px rgba(255,255,255,0.5), 0 0 20px rgba(255,255,255,0.5); /* Shining effect */
 }
 
 .project-name-box {
   padding: 10px;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 5px;
   font-weight: bold; /* Add this line */
 }

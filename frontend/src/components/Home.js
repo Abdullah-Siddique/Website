@@ -7,7 +7,10 @@ const Home = () => {
   return (
     <div className="container">
       <div className="card">
-        <div className="front">Abdullah Siddique</div>
+        <div className="front">
+        <div>Abdullah Siddique</div>
+        <div>(Touch Here)</div>
+        </div>
         <div className="back">
           <img src="https://i.postimg.cc/q7HXQ6Pk/413232099-696777009190042-407791796921927712-n.png" alt="Owner" />
         </div>

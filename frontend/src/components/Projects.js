@@ -22,7 +22,7 @@ const Projects = () => {
         <ul>
           {projects.map((project, index) => (
             <li key={index}>
-              <div className="project-name-box">{project.name}</div>
+              <div className="project-name-box project-name">{project.name}</div>
             </li>
           ))}
         </ul>
